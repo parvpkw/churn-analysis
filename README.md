@@ -1,45 +1,23 @@
-# 📉 Customer Churn Analysis
+# 📊 Customer Churn Analysis
 
-An academic machine learning project focused on predicting customer attrition and recommending effective retention strategies. Built using Python with a logistic regression model, this project identifies key drivers of churn and presents actionable business insights.
+This project analyzes telecom customer data to predict churn and propose retention strategies.
 
----
+## 🔧 Tech Stack
+- Python (Pandas, NumPy, Matplotlib, Scikit-learn)
+- Logistic Regression
+- Jupyter Notebook
 
-## 🧠 Project Objective
+## 🎯 Objectives
+- Identify key factors influencing churn
+- Predict churn using logistic regression
+- Offer actionable strategies to reduce churn
 
-To analyze customer behavior data, identify the key factors leading to churn, and build a predictive model to proactively mitigate attrition.
+## 🚀 How to Run
+1. Clone repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run Jupyter notebook in `notebooks/`
 
----
-
-## 📊 Dataset Overview
-
-The dataset contains customer information from a telecom company, including:
-- Demographics (gender, age, senior citizen status)
-- Services subscribed (Internet, Phone, Streaming)
-- Account details (tenure, contract type, monthly charges)
-- Churn label (Yes/No)
-
----
-
-## ⚙️ Tech Stack
-
-- **Programming**: Python
-- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn
-- **Model**: Logistic Regression
-- **Tools**: Jupyter Notebook
-
----
-
-## 🔍 Key Features
-
-- 📂 **Data Cleaning**: Handled missing values, encoded categorical variables, and normalized features.
-- 📊 **Exploratory Data Analysis**: Visualized churn patterns across demographics, contract types, and tenure.
-- 🤖 **Model Building**: Logistic regression classifier trained to predict customer churn with **82% accuracy**.
-- 📈 **Insights & Strategy**:
-  - Long-term contracts correlate with lower churn.
-  - Customers with month-to-month contracts are at higher risk.
-  - Proposed retention tactics include flexible billing and proactive customer engagement.
-
----
-
-## 📁 File Structure
-
+## 📌 Result
+- Achieved 82% accuracy
+- Highlighted churn trends with visual insights
+- Built actionable strategies for customer retention
