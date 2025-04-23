@@ -21,3 +21,24 @@ This project analyzes telecom customer data to predict churn and propose retenti
 - Achieved 82% accuracy
 - Highlighted churn trends with visual insights
 - Built actionable strategies for customer retention
+
+customer_churn_analysis/
+│
+├── data/
+│   └── customer_data.csv          # Sample or original dataset
+│
+├── notebooks/
+│   └── churn_analysis.ipynb       # Main analysis notebook
+│
+├── src/
+│   ├── data_cleaning.py
+│   ├── model_training.py
+│   └── churn_predictor.py
+│
+├── assets/
+│   └── churn_insights.png         # EDA/Model performance chart
+│
+├── README.md
+├── requirements.txt
+└── churn_report.pdf               # (Optional) Summary report
+
